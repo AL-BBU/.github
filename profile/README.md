@@ -5,8 +5,6 @@
 <br>
 <br>
 
----
-
 ## 🎯 Goals
 
 - 삼성 역량 테스트 B형 통과
@@ -16,7 +14,7 @@
 <br>
 <br>
 
----
+
 
 ## 📜 Rules
 
@@ -27,3 +25,48 @@
 
 <br>
 <br>
+
+
+
+## 🎲 Conventions
+
+1. 브랜치 관리 전략
+
+- 각자 이름으로 브랜치를 생성해요.
+
+```java
+master
+├─ {이름 영문명}
+├─ ...
+└─ {Sugyeong}
+  
+```
+
+<br>
+
+2. 커밋 메시지
+    
+`{Title}: {Commit Message}`
+
+e.g. `post: 날짜`
+
+| Title | Description |
+| --- | --- |
+| docs | 문서 수정 |
+| post | 문제 풀이 파일 업로드 |
+| update | 문제 풀이 파일 수정 |
+
+<br>
+
+3.  디렉토리 구조
+
+```shell
+{n주차}
+└─ {플랫폼}_{문제이름}
+└─ {이름}.java
+  
+```
+
+<br>
+<br>
+
